@@ -435,6 +435,7 @@
         "image-1",
         "image-2"
       ],
+      "name": "Bundling product",
       "settings": {
         "color_scheme": "",
         "reveal_on_scroll": true,
@@ -512,7 +513,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "blog": "",
+        "blog": "happy-bear-blog",
         "posts_count": 3,
         "stack_on_mobile": false,
         "show_category": true,
