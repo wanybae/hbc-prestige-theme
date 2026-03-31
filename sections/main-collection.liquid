@@ -308,6 +308,10 @@
                 </product-list>
 
                 {%- render 'pagination', paginate: paginate, facet: true -%}
+
+                <div class="collection-description">
+                  {{- collection.description -}}
+                </div>
               </div>
             {%- endif -%}
           {%- endpaginate -%}
