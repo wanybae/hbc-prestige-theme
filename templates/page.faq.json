@@ -158,7 +158,8 @@
         "question_PzWp6q"
       ],
       "custom_css": [
-        "div.prose {padding-left: 1rem;}"
+        "div.prose {padding-left: 1rem;}",
+        "h6 {margin-top: 1rem;}"
       ],
       "settings": {
         "color_scheme": "",
