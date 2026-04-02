@@ -17,7 +17,8 @@
           "settings": {
             "title": "Coffee Questions",
             "icon": "none",
-            "icon_width": 16
+            "custom_icon": "shopify://shop_images/3_19ca7fec-ca8b-4758-a7b3-b1e75d6458f6.png",
+            "icon_width": 32
           }
         },
         "question_re9dem": {
@@ -67,7 +68,8 @@
           "settings": {
             "title": "Subscriptions",
             "icon": "none",
-            "icon_width": 16
+            "custom_icon": "shopify://shop_images/3_19ca7fec-ca8b-4758-a7b3-b1e75d6458f6.png",
+            "icon_width": 32
           }
         },
         "question-1": {
@@ -96,7 +98,8 @@
           "settings": {
             "title": "Nutritional Information",
             "icon": "none",
-            "icon_width": 16
+            "custom_icon": "shopify://shop_images/3_19ca7fec-ca8b-4758-a7b3-b1e75d6458f6.png",
+            "icon_width": 32
           }
         },
         "question_wpikKM": {
