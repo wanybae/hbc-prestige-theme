@@ -22,6 +22,8 @@
     "text_font": "nunito_n4",
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
+    "social_pinterest": "https://www.pinterest.com/HappyBearCoffee",
+    "social_linkedin": "https://www.linkedin.com/company/happybearcoffee/",
     "favicon": "shopify://shop_images/180x180_white_bg_logomark.webp",
     "content_for_index": [],
     "color_schemes": {
