@@ -109,22 +109,29 @@
         "question_nTQ7nj": {
           "type": "question",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Write a clear and concise answer to guide your customers.</p>"
+            "question": "Is your coffee Gluten Free?",
+            "answer": "<p>While not currently certified, our ground and whole bean coffee do NOT contain any gluten or wheat ingredients. Coffee is the only product in our facilities and it never comes into contact with anything containing wheat or gluten.</p>"
           }
         },
         "question_jAMqiB": {
           "type": "question",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Write a clear and concise answer to guide your customers.</p>"
+            "question": "Is your coffee Vegan/Organic?",
+            "answer": "<p>While not currently certified vegan our ground and whole bean coffees do not contain any milk, egg or dairy products. At this time we do not offer any official certified organic varieties.</p>"
           }
         },
         "question_K3HbEi": {
           "type": "question",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Write a clear and concise answer to guide your customers.</p>"
+            "question": "If your coffee Keto friendly?",
+            "answer": "<p>Absolutely! We do not use sugar or sweeteners in our ground or whole bean coffee flavors, and each brewed 8oz cup has approximately 2 calories, 0g carbs and 0g sugar!</p>"
+          }
+        },
+        "question_PzWp6q": {
+          "type": "question",
+          "settings": {
+            "question": "Does your flavored coffee contain Propylene Glycol?",
+            "answer": "<p>Yes, our Flavored coffee does contain Propylene Glycol. Propylene glycol is a useful and food safe binding agent found in a wide variety of products across the food industry. It is overall considered a very-low toxicity substance. A small percentage of people are allergic to propylene glycol and may need to avoid products containing it. Yet for most people, the amounts regularly found in food products are considered safe. This is part of the proprietary ingredients used for the natural and artificial flavoring we use.</p>"
           }
         }
       },
@@ -144,7 +151,8 @@
         "question_wpikKM",
         "question_nTQ7nj",
         "question_jAMqiB",
-        "question_K3HbEi"
+        "question_K3HbEi",
+        "question_PzWp6q"
       ],
       "settings": {
         "color_scheme": "",
