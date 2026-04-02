@@ -1,1 +1,162 @@
-{"sections":{"faq":{"type":"faq","blocks":{"category":{"type":"category","settings":{"title":"Order"}},"question-1":{"type":"question","settings":{"question":"Do you ship overseas?","answer":"<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"}},"question-2":{"type":"question","settings":{"question":"How long will it take to get my orders?","answer":"<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"}},"question-3":{"type":"question","settings":{"question":"Any question?","answer":"<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"}}},"block_order":["category","question-1","question-2","question-3"],"settings":{}}},"order":["faq"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "category_BjVn7w": {
+          "type": "category",
+          "settings": {
+            "title": "Coffee, Coffee, & Coffee Questions",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_re9dem": {
+          "type": "question",
+          "settings": {
+            "question": "Are your coffees considered mold-free?",
+            "answer": "<p>At Happy Bear Coffee Company, we understand that “mold-free” has become something of a buzzword in the coffee world. But for us, it’s more than just a trend—it's about delivering truly clean, high-quality coffee. Beyond the hype, we went the extra mile to make sure our coffee is free from mold and mycotoxins. Through careful testing and quality assurance, we can proudly say that our coffee is proven to be mold-free, including tests for Salmonella, E-Coli, Aerobic Bacteria, Staphylococcus, Yeast & Mold. Why Mold-Free Coffee Matters While \"mold-free\" might sound like a fad, we’re committed to offering you a healthier, cleaner cup of coffee. Mold can develop in improperly handled beans, leading to potential health risks. That’s why we don’t rely on marketing buzz—we test our coffee to ensure it’s completely free from mold, so you can sip with confidence. We have professional, laboratory, third party assurance that our coffee is safe. How We Ensure It Thorough Testing: We scientifically test our beans to detect and eliminate any mold or harmful mycotoxins. These tests confirm that our coffee is as clean and safe as it is flavorful. Sourcing and Processing: We work with coffee farms that share our commitment to quality. By sourcing beans from trusted growers and processing them in mold-free environments, we ensure that mold never becomes an issue in the first place. Storage and Roasting: Proper storage and precision roasting further protect your coffee from mold contamination, preserving both the purity and the taste of the beans.</p>"
+          }
+        },
+        "question_rekfB6": {
+          "type": "question",
+          "settings": {
+            "question": "Can you explain the difference in grind types for your coffees?",
+            "answer": "<p>What do different grinds of coffee mean? The grind of coffee beans affects the flavor of the coffee and how long it takes to brew: Coarser Grind Brew Examples: Cold Brew, French Press, Chemex Water moves quickly through the looser particles of coarsely ground coffee, extracting less flavor and resulting in a shorter brew time. To get the full flavor, you should brew coarsely ground coffee for a bit longer. Medium Grind Brew Examples: Drip Coffee Pot, Pour Over (most), Percolator, Refillable K-Cup The usual and most common grind setting used for what many consider the \"plain old Mr. Coffee Drip Coffee Maker Setting.\" This can be used for a re-usable K-Cup, too and many other brew styles, too, based off preference. Finer Grind Brew Examples: Moka Pot, Espresso The particles of finely ground coffee are packed more closely together, so water flows more slowly and has more contact with the grounds. This results in greater extraction and a more robust flavor. Because of this, you can brew finely ground coffee for a shorter amount of time. Under-Extraction If water has very little time in contact with the coffee grounds, the coffee can taste weak, sour, and thin. Over-Extraction If you brew coffee for too long after extraction, it can taste bitter.</p>"
+          }
+        },
+        "question_zpwfiW": {
+          "type": "question",
+          "settings": {
+            "question": "What is the best way to store my coffee?",
+            "answer": "<p>Coffee is best stored in an opaque, airtight container in a cool, dry place. You do not want your beans exposed to light or humidity, as it can compromise the freshness and quality! If properly stored, our ground coffee will stay fresh for about 4 weeks from opening. Whole bean coffee will stay fresh for about 8 weeks from opening.</p>"
+          }
+        },
+        "question_jnTQEw": {
+          "type": "question",
+          "settings": {
+            "question": "Is there alcohol in any of your \"liquor flavored\" coffees?",
+            "answer": "<p>No, we do not use any alcohol in the production of our coffees. You can always add a \"little something\" after you brew your coffee!</p>"
+          }
+        },
+        "question_nFQdKz": {
+          "type": "question",
+          "settings": {
+            "question": "Is your coffee certified Fair Trade?",
+            "answer": "<p>We receive samples weekly from farms across the globe as their crops come to harvest. Our sample roasts allow us to determine where we will source our next shipments. From Central and South America to Africa and the South Pacific, we choose to source only the top graded crops. We decided not to certify as Fair Trade because the cost the farmers pay in fees often negates the benefit to them. Rest assured that we negotiate fair prices with our coffee farmers, and every bean is sourced ethically.</p>"
+          }
+        },
+        "question_Btiei4": {
+          "type": "question",
+          "settings": {
+            "question": "What is your decaffeination process?",
+            "answer": "<p>Through the Swiss Water Process, we are able to decaffeinate our beans. This process relies on caffeine solubility (dissolvability) and osmosis to remove caffeine from green coffee beans. Since the Green Coffee Extract already contains the other elements of flavor, those substances won't dissolve from the beans and just the caffeine is removed.</p>"
+          }
+        },
+        "category": {
+          "type": "category",
+          "settings": {
+            "title": "Subscriptions",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "question": "Can I change the flavors in my Subscription?",
+            "answer": "<p>Yes! You can manage your subscription and update the flavors. You will want to make sure you update the flavors on your subscription before your next billing date, and that way you can try a different flavor every time!</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "question": "Can I change anything in my subscription after I receive my first box?",
+            "answer": "<p>Yes! You can manage your subscription and update the frequency you receive coffee, the delivery date, payment method, shipping/billing address, as well as pausing or canceling your subscription.</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "question": "Any questions or comments?",
+            "answer": "<p>You can contact us through our contact page or our chat feature! We will be happy to assist you.</p>"
+          }
+        },
+        "category_8xAdxC": {
+          "type": "category",
+          "settings": {
+            "title": "Category",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_wpikKM": {
+          "type": "question",
+          "settings": {
+            "question": "What is the Nutritional Information for Ground and Whole Bean Happy Bear Coffee?",
+            "answer": "<p>The ingredients are as follows: 100% Arabica Coffee, Natural & Artificial Flavors. Since flavors are proprietary (means it's top secret information) we do not provide a more extensive breakdown. The FDA only requires that the major allergens (Milk, Dairy, Eggs, Wheat, Gluten, Tree Nuts, Peanuts, Soy, Fish, Shellfish) are disclosed if present. None of our ground or whole bean coffees contain any of these allergens.</p>"
+          }
+        },
+        "question_nTQ7nj": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.</p>"
+          }
+        },
+        "question_jAMqiB": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.</p>"
+          }
+        },
+        "question_K3HbEi": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_BjVn7w",
+        "question_re9dem",
+        "question_rekfB6",
+        "question_zpwfiW",
+        "question_jnTQEw",
+        "question_nFQdKz",
+        "question_Btiei4",
+        "category",
+        "question-1",
+        "question-2",
+        "question-3",
+        "category_8xAdxC",
+        "question_wpikKM",
+        "question_nTQ7nj",
+        "question_jAMqiB",
+        "question_K3HbEi"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "faq"
+  ]
+}
