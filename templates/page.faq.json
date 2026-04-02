@@ -32,7 +32,7 @@
           "type": "question",
           "settings": {
             "question": "Can you explain the difference in grind types for your coffees?",
-            "answer": "<p>What do different grinds of coffee mean? The grind of coffee beans affects the flavor of the coffee and how long it takes to brew.</p><ul><li><strong>Under-Extraction:</strong> If water has very little time in contact with the coffee grounds, the coffee can taste weak, sour, and thin. </li><li><strong>Over-Extraction:</strong> If you brew coffee for too long after extraction, it can taste bitter. </li></ul><p><strong>Coarser Grind :</strong> </p><p>Water moves quickly through the looser particles of coarsely ground coffee, extracting less flavor and resulting in a shorter brew time. To get the full flavor, you should brew coarsely ground coffee for a bit longer. </p><ul><li>Cold Brew</li><li>French Press</li><li>Chemex </li></ul><p></p><p><strong>Medium Grind:</strong> </p><p>The usual and most common grind setting used for what many consider the \"plain old Mr. Coffee Drip Coffee Maker Setting.\" This can be used for a re-usable K-Cup, too and many other brew styles, too, based off preference. </p><ul><li>Drip Coffee Pot</li><li>Pour Over</li><li>Percolator</li><li>Refillable K-Cup </li></ul><p></p><p><strong>Finer Grind:</strong> </p><p>The particles of finely ground coffee are packed more closely together, so water flows more slowly and has more contact with the grounds. This results in greater extraction and a more robust flavor. Because of this, you can brew finely ground coffee for a shorter amount of time. </p><ul><li>Moka Pot</li><li>Espresso </li></ul>"
+            "answer": "<p>What do different grinds of coffee mean? The grind of coffee beans affects the flavor of the coffee and how long it takes to brew.</p><ul><li><strong>Under-Extraction:</strong> If water has very little time in contact with the coffee grounds, the coffee can taste weak, sour, and thin. </li><li><strong>Over-Extraction:</strong> If you brew coffee for too long after extraction, it can taste bitter. </li></ul><p></p><h6><strong>Coarser Grind</strong></h6><p>Water moves quickly through the looser particles of coarsely ground coffee, extracting less flavor and resulting in a shorter brew time. To get the full flavor, you should brew coarsely ground coffee for a bit longer. </p><ul><li>Cold Brew</li><li>French Press</li><li>Chemex </li></ul><h6><strong>Medium Grind</strong></h6><p>The usual and most common grind setting used for what many consider the \"plain old Mr. Coffee Drip Coffee Maker Setting.\" This can be used for a re-usable K-Cup, too and many other brew styles, too, based off preference. </p><ul><li>Drip Coffee Pot</li><li>Pour Over</li><li>Percolator</li><li>Refillable K-Cup </li></ul><h6><strong>Finer Grind</strong></h6><p>The particles of finely ground coffee are packed more closely together, so water flows more slowly and has more contact with the grounds. This results in greater extraction and a more robust flavor. Because of this, you can brew finely ground coffee for a shorter amount of time. </p><ul><li>Moka Pot</li><li>Espresso </li></ul>"
           }
         },
         "question_zpwfiW": {
@@ -156,6 +156,9 @@
         "question_jAMqiB",
         "question_K3HbEi",
         "question_PzWp6q"
+      ],
+      "custom_css": [
+        "div.prose {padding-left: 1rem;}"
       ],
       "settings": {
         "color_scheme": "",
