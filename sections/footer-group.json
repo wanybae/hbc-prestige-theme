@@ -79,6 +79,14 @@
             "link": ""
           }
         },
+        "image_mzTazw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SCA-Member2026-Badge-GreyYellow-8.png",
+            "image_width": 150,
+            "link": ""
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "disabled": true,
@@ -109,6 +117,7 @@
       "block_order": [
         "image_xHV9EL",
         "image_xLDHUq",
+        "image_mzTazw",
         "newsletter",
         "links",
         "text"
