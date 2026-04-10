@@ -87,16 +87,6 @@
             "link": "https://sca.coffee/"
           }
         },
-        "newsletter": {
-          "type": "newsletter",
-          "disabled": true,
-          "settings": {
-            "title": "Newsletter",
-            "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "links": {
           "type": "links",
           "settings": {
@@ -108,8 +98,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Contact us",
+            "content": "<ul><li>Phone: 215-598-2343</li><li>email: sales@happybearcoffee.com</li><li>Location: Birdsboro, PA</li></ul>",
             "enable_follow_on_shop": true
           }
         }
@@ -118,7 +108,6 @@
         "image_xHV9EL",
         "image_xLDHUq",
         "image_mzTazw",
-        "newsletter",
         "links",
         "text"
       ],
