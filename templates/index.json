@@ -73,7 +73,6 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Cold_Form_f643485f-a6c3-42cc-81ad-71383d1b1904.png",
             "subheading": "Tell your story",
             "title": "Image slide",
             "mobile_text_position": "place-self-center text-center",
@@ -239,6 +238,7 @@
           "settings": {
             "color_scheme": "",
             "collection": "decaffeinated-coffee",
+            "image": "shopify://shop_images/two-bags_decaf.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
