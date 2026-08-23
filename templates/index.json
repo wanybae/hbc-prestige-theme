@@ -421,19 +421,13 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "rotation": 0
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
+            "image": "shopify://shop_images/HBC_bundle.png",
             "rotation": 0
           }
         }
       },
       "block_order": [
-        "image-1",
-        "image-2"
+        "image-1"
       ],
       "name": "Bundling product",
       "settings": {
