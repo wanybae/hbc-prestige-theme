@@ -99,7 +99,7 @@
           "type": "text",
           "settings": {
             "title": "Contact us",
-            "content": "<ul><li>Phone: 215-598-2343</li><li>email: sales@happybearcoffee.com</li><li>Location: Birdsboro, PA</li></ul>",
+            "content": "<ul><li>215-598-2343</li><li>sales@happybearcoffee.com</li><li>Location: Birdsboro, PA</li></ul>",
             "enable_follow_on_shop": true
           }
         }
