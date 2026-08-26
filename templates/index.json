@@ -73,7 +73,6 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Cold_Form_f643485f-a6c3-42cc-81ad-71383d1b1904.png",
             "subheading": "Tell your story",
             "title": "Image slide",
             "mobile_text_position": "place-self-center text-center",
@@ -210,7 +209,7 @@
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
-            "title": "",
+            "title": "Single-origin & Blends",
             "button_text": "View products",
             "button_link": "",
             "button_style": "solid",
@@ -226,7 +225,7 @@
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
-            "title": "",
+            "title": "Flavored Coffee",
             "button_text": "View products",
             "button_link": "",
             "button_style": "solid",
@@ -239,10 +238,11 @@
           "settings": {
             "color_scheme": "",
             "collection": "decaffeinated-coffee",
+            "image": "shopify://shop_images/three-bags.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
-            "title": "",
+            "title": "Decaffeinated Coffee",
             "button_text": "View products",
             "button_link": "",
             "button_style": "solid",
@@ -258,7 +258,7 @@
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
-            "title": "",
+            "title": "Brewing Methods",
             "button_text": "View products",
             "button_link": "",
             "button_style": "solid",
@@ -274,7 +274,7 @@
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
-            "title": "",
+            "title": "Travel Gear & More",
             "button_text": "View products",
             "button_link": "",
             "button_style": "solid",
@@ -290,7 +290,7 @@
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
-            "title": "",
+            "title": "Merch",
             "button_text": "View products",
             "button_link": "",
             "button_style": "solid",
@@ -421,19 +421,13 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "rotation": 0
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
+            "image": "shopify://shop_images/HBC_bundle.png",
             "rotation": 0
           }
         }
       },
       "block_order": [
-        "image-1",
-        "image-2"
+        "image-1"
       ],
       "name": "Bundling product",
       "settings": {
@@ -447,14 +441,14 @@
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
-        "subheading": "Bundling",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.</p>",
-        "button_1_text": "",
-        "button_1_link": "",
+        "subheading": "",
+        "title": "Build Your Own Bear Bundle Subscription",
+        "content": "<p>Why settle for one bag when you can build a bundle that's <em>pawsitively</em> perfect? Mix and match our flavored coffees and  small-batch roasts, choose your grind, and if you want regular or decaf. Whether you're hibernating with a big batch for yourself or gifting a bundle to someone who deserves the bear necessities of good coffee — we'll pack it fresh and send it off with a growl of approval.</p>",
+        "button_1_text": "Subscribe, Bundle and Save",
+        "button_1_link": "https://happybearcoffee.com/a/bundles/subscribe-&-save-flavored-coffee-ie7f",
         "button_1_style": "solid",
         "button_2_text": "",
-        "button_2_link": "",
+        "button_2_link": "https://happybearcoffee.com/a/bundles/subscribe-&-save-hee7",
         "button_2_style": "solid"
       }
     },

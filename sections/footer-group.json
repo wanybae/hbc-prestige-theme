@@ -68,7 +68,7 @@
           "settings": {
             "image": "shopify://shop_images/17672387796955ec7b12ff82453.png",
             "image_width": 150,
-            "link": ""
+            "link": "https://happybearcoffee.com"
           }
         },
         "image_xLDHUq": {
@@ -76,17 +76,15 @@
           "settings": {
             "image": "shopify://shop_images/LGBTBE_Transparent-22.png",
             "image_width": 150,
-            "link": ""
+            "link": "https://nglcc.org/"
           }
         },
-        "newsletter": {
-          "type": "newsletter",
-          "disabled": true,
+        "image_mzTazw": {
+          "type": "image",
           "settings": {
-            "title": "Newsletter",
-            "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
-            "button_background": "",
-            "button_text_color": ""
+            "image": "shopify://shop_images/SCA-Member2026-Badge-GreyYellow-8.png",
+            "image_width": 150,
+            "link": "https://sca.coffee/"
           }
         },
         "links": {
@@ -100,8 +98,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Contact us",
+            "content": "<ul><li>215-598-2343</li><li>sales@happybearcoffee.com</li><li>Location: Birdsboro, PA</li></ul>",
             "enable_follow_on_shop": true
           }
         }
@@ -109,7 +107,7 @@
       "block_order": [
         "image_xHV9EL",
         "image_xLDHUq",
-        "newsletter",
+        "image_mzTazw",
         "links",
         "text"
       ],
