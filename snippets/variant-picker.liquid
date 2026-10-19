@@ -50,7 +50,12 @@
     {%- for option in product.options_with_values -%}
       {% liquid
         assign option_downcase = option.name | downcase
+        assign is_grind_option = false
         assign resolved_option_selector_style = selector_style
+
+        if option_downcase contains 'grind'
+          assign is_grind_option = true
+        endif
 
         assign swatch_count = option.values | map: 'swatch' | compact | size
 
@@ -181,6 +186,12 @@
               when 'swatch', 'swatch_underline', 'variant_image', 'block', 'block_swatch'
                 assign list_classes = 'h-stack gap-2.5 wrap'
 
+                if is_grind_option
+                  if resolved_option_selector_style == 'block' or resolved_option_selector_style == 'block_swatch'
+                    assign list_classes = 'variant-picker__option-values--grind'
+                  endif
+                endif
+
               when 'underline'
                 assign list_classes = 'h-stack gap-4 wrap'
 
@@ -202,9 +213,9 @@
                   when 'swatch_underline'
                     render 'option-value', type: 'swatch_underline', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
                   when 'block'
-                    render 'option-value', type: 'block', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
+                    render 'option-value', type: 'block', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index, is_grind_option: is_grind_option
                   when 'block_swatch'
-                    render 'option-value', type: 'block', form: form_id, option_value: option_value, param_name: name, option_position: option.position, show_swatch: true, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
+                    render 'option-value', type: 'block', form: form_id, option_value: option_value, param_name: name, option_position: option.position, show_swatch: true, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index, is_grind_option: is_grind_option
                   when 'underline'
                     render 'option-value', type: 'underline', form: form_id, option_value: option_value, param_name: name, option_position: option.position, hide_if_disabled: hide_sold_out_variants, reload_page_for_combined_products: is_main_product, id_prefix: forloop.index
                 endcase
