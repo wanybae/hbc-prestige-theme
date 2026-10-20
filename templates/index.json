@@ -100,12 +100,13 @@
         "image_f7JQAT": {
           "type": "image",
           "settings": {
-            "subheading": "Tell your story",
-            "title": "Image slide",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "image": "shopify://shop_images/HBC_bundle.png",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "",
+            "button_1_text": "Build Your Own Bear Bundle Subscription",
             "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
