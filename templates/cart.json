@@ -1,1 +1,49 @@
-{"sections":{"main":{"type":"main-cart","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "required_dropdown_field_gTd9hh": {
+          "type": "shopify://apps/required/blocks/dropdown_field/55168456-5d05-4e45-ae2b-c38136457a2c",
+          "settings": {
+            "label": "Customer-Powered Donation",
+            "name": "Donation",
+            "placeholder": "Select where your 5% is donated",
+            "choices": "Charity of the Month: Action Wellness-Dining Out for Life; ACLU (American Civil Liberties Union); ASPCA (American Society for the Prevention of Cruelty to Animals); Children's Hospital of Philadelphia Foundation; Children's Scholarship Fund; Disabled American Veterans (DAV); Equality Alliance of Chester County; Girls Who Code; Goat Daddy's Animal Sanctuary; HRC (Human Rights Campaign); I Have the Right To; The Innocence Project; PFLAG; NAACP (National Association for the Advancement of Colored People); No Kid Go Hungry; NPR (National Public Radio); Human Rights Watch; League of Women Voters; NBJC; No Kid Hungry; Project for Public Spaces; Race Forward; Real Cost of Prisons Project; SPLC (The Southern Poverty Law Center); St. Jude Children's Research Hospital; Stonewall Sports; Sustainable Business Network-PHL (SBN); Teach for America; This Center for Public Integrity; Wounded Warrior Project (WWP); Delaware Valley Legacy Fund (DVLF); World Central Kitchen*; One; Two; Three",
+            "helper": "",
+            "width": 100,
+            "required": false,
+            "validation_message": "",
+            "custom_css": "",
+            "form_id": "cart",
+            "debounce_timeout": 300
+          }
+        }
+      },
+      "block_order": [
+        "required_dropdown_field_gTd9hh"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_cart_note": true,
+        "allow_discount_application": false,
+        "show_order_weight": false,
+        "show_shipping_text": true,
+        "show_accelerated_buttons": false,
+        "show_shipping_estimator": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
