@@ -49,11 +49,11 @@
 
     {%- for option in product.options_with_values -%}
       {% liquid
-        assign option_downcase = option.name | downcase
+        assign option_downcase = option.name | downcase | strip
         assign is_grind_option = false
         assign resolved_option_selector_style = selector_style
 
-        if option_downcase contains 'grind'
+        if option_downcase contains 'grind' or option_downcase contains '분쇄' or option_downcase contains 'molienda' or option_downcase contains 'molido'
           assign is_grind_option = true
         endif
 
