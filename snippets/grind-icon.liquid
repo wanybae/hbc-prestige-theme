@@ -13,27 +13,27 @@
 {%- endcomment -%}
 
 {%- liquid
-  assign grind_handle = grind_type | downcase | strip | handle
+  assign grind_text = grind_type | downcase | strip
 
-  if grind_handle contains 'whole' or grind_handle contains 'bean'
+  if grind_text contains 'whole' or grind_text contains 'bean' or grind_text contains '홀빈' or grind_text contains '원두' or grind_text contains 'grano'
     assign icon_type = 'whole-bean'
-  elsif grind_handle contains 'drip'
-    assign icon_type = 'drip'
-  elsif grind_handle contains 'espresso'
+  elsif grind_text contains 'espresso' or grind_text contains 'expreso' or grind_text contains '에스프레소'
     assign icon_type = 'espresso'
-  elsif grind_handle contains 'french' or grind_handle contains 'french-press' or grind_handle == 'press'
+  elsif grind_text contains 'french' or grind_text contains '프렌치' or grind_text contains 'prensa francesa' or grind_text == 'press'
     assign icon_type = 'french-press'
-  elsif grind_handle contains 'pour'
+  elsif grind_text contains 'pour' or grind_text contains '푸어' or grind_text contains '핸드드립' or grind_text contains 'vertido'
     assign icon_type = 'pour-over'
-  elsif grind_handle contains 'chemex'
+  elsif grind_text contains 'drip' or grind_text contains '드립' or grind_text contains 'goteo' or grind_text contains 'filtro'
+    assign icon_type = 'drip'
+  elsif grind_text contains 'chemex' or grind_text contains '케멕스'
     assign icon_type = 'chemex'
-  elsif grind_handle contains 'cold' or grind_handle contains 'ice'
+  elsif grind_text contains 'cold' or grind_text contains 'ice' or grind_text contains '콜드' or grind_text contains 'frío' or grind_text contains 'frio'
     assign icon_type = 'cold-brew'
-  elsif grind_handle contains 'moka'
+  elsif grind_text contains 'moka' or grind_text contains '모카'
     assign icon_type = 'moka-pot'
-  elsif grind_handle contains 'percolator'
+  elsif grind_text contains 'percolator' or grind_text contains '퍼콜레이터' or grind_text contains 'percolador'
     assign icon_type = 'percolator'
-  elsif grind_handle contains 'k-cup' or grind_handle contains 'pod' or grind_handle contains 'capsule'
+  elsif grind_text contains 'k-cup' or grind_text contains 'pod' or grind_text contains 'capsule' or grind_text contains '캡슐' or grind_text contains 'cápsula' or grind_text contains 'capsula'
     assign icon_type = 'k-cup'
   else
     assign icon_type = 'whole-bean'
