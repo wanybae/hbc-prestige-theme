@@ -17,7 +17,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "Free shipping on orders over $60 - SHIPFREE60 (Up to $15)"
+            "text": "Free shipping on orders over $60 - Use code: <strong>SHIPFREE60</strong> (Up to $15)"
           }
         }
       },
