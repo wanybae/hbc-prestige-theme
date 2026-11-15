@@ -47,6 +47,7 @@
       "blocks": {
         "slide-1": {
           "type": "image",
+          "name": "First slide",
           "settings": {
             "image": "shopify://shop_images/All_Spread.png",
             "subheading": "",
@@ -73,6 +74,7 @@
         },
         "slide-2": {
           "type": "image",
+          "name": "Second slide",
           "settings": {
             "image": "shopify://shop_images/event_layout.jpg",
             "subheading": "",
@@ -99,6 +101,7 @@
         },
         "image_f7JQAT": {
           "type": "image",
+          "name": "Third slide",
           "settings": {
             "image": "shopify://shop_images/HBC_bundle_for_slideshow.png",
             "subheading": "",
