@@ -74,7 +74,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_3394.jpg",
+            "image": "shopify://shop_images/event_layout.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-start text-start",
@@ -100,7 +100,7 @@
         "image_f7JQAT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/HBC_bundle.png",
+            "image": "shopify://shop_images/HBC_bundle_for_slideshow.png",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-start text-start",
